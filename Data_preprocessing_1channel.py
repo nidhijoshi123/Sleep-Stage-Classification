@@ -35,7 +35,7 @@ test_list = random.sample(range(1,folderCount) ,int(folderCount - round(0.8*fold
 print(test_list)
 
 def appendDataAndLabels(file,dataArray,labelArray):
-        tData = numpy.loadtxt(paths.sourceDataFolder+file+paths.sep+paths.channel2 , encoding= 'unicode_escape', skiprows=7)
+        tData = numpy.loadtxt(paths.sourceDataFolder+file+paths.sep+paths.channel1 , encoding= 'unicode_escape', skiprows=7)
         tLabels = numpy.loadtxt(paths.sourceDataFolder+file+paths.sep+paths.labels)
         nLabels = math.floor(len(tData) / paths.samplesPerLabel)
         tData = tData[:-(int(len(tData) -  (paths.samplesPerLabel * nLabels)))]
