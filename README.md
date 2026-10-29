@@ -8,6 +8,6 @@ _Newapproachwithdropout0.2_ contains all commands for model designing and fittin
 
 Hypnodensity plots are plotted using the file _hypno_plot_. These are the softmax layer outputs (of the model in _Newapproachwithdropout0.2_) for every patient plotted against time in seconds.
 
-_mdsPlot_ and _GDV_ were used for plotting MDS (Multidimensional Scaling) and GDV (Generalized Discrimination Value) respectively.
+The files named as _mdsPlot_ and _GDV_ were used for plotting MDS (Multidimensional Scaling) and GDV (Generalized Discrimination Value) respectively.
 
 
